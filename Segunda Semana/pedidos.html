@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los tres Huastecos</title>
+    <style>
+        img {
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 4px;
+            padding: 5px;
+            width: 200px;
+            height: 200px;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(252, 227, 159);
+            
+        }
+        .content {
+        max-width: 700px;
+        margin: auto;
+        padding: 10px;
+}
+        h3{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        }
+
+        li {
+          float: left;
+        }
+
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+        li a:hover {
+        background-color: #111;
+        }
+       
+    </style>
+</head>
+<center>
+<header>
+    <img src="img/logo.jpg" alt="logo">
+    <ul>
+        <li><a href="index.html#Sabores">SABORES</a></li>
+        <li><a href="index.html#adornos">ADORNOS</a></li>
+        <li><a href="pedidos.html">PEDIDO</a></li>
+    </ul>
+</header>
+<body class="content">
+        <form  method="get">
+        <p>Nombre  <input type="text"  id="nombre" placeholder="Tu nombre">  </p>
+        <p>Correo Electronico <input type="email"  id="email" placeholder="correo@correo.com"></p>
+        <p>Telefono <input type="phone"  id="telefono" placeholder="9511234567"></p>
+        <p>Direccion <input type="text"  id="direccion" placeholder="ave. noche triste num 123 col. sur del norte"></p>
+        <h3>Elige tu sabor:</h3>
+        <select multiple="" id="sabor">
+            <option>Chocolate</option>
+            <option>Vainilla</option>
+            <option>Mango</option>
+            <option>3 Leches</option>
+            <option>Queso</option>
+            <option>Frutos Rojos</option>
+            <option>Moka</option>
+            <option>Cafe</option>
+            <option>Zarzamora</option>
+        </select>
+        <h3>Escoge tus adornos</h3>
+        <input type="checkbox" name="vela1" value="clasicas">
+        <label for="vehicle1"> Velas clasicas</label><br>
+        <input type="checkbox" name="vela2" value="magicas">
+        <label for="vehicle1"> Velas magicas</label><br>
+        <input type="checkbox" name="vela3" value="numeros">
+        <label for="vehicle1"> Velas con numeros</label><br>
+        <input type="checkbox" name="vela4" value="brillantes">
+        <label for="vehicle1"> Velas Brillantes</label><br>
+        <input type="checkbox" name="vela5" value="colores">
+        <label for="vehicle1"> Velas de colores</label><br>
+        <input type="checkbox" name="vela6" value="deste">
+        <label for="vehicle1"> Velas destellantes</label><br>
+        <h3>Observaciones</h3>
+        <textarea name="obse" rows="10" cols="30"></textarea> <br>
+        <input type="submit">
+      </form>
+</body>
+<footer>
+    <h1>CONTACTANOS</h1>
+        <p>
+            Estamos disponibles los 365 dias del año, en un horario de 9 de la mañana a 9 de la noche <br>
+            Telefono: 95112345678 <br>
+            Mail: pedidos@lostreshuastecos.com
+        </p>
+</footer>
+</center>
+</html>
