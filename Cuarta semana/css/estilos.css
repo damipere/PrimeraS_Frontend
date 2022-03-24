@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+} /*general sin margen y padding*/
+body{
+    background-color: rgb(129, 86, 86);
+} /*color rojo*/
+p{
+  font-weight: bold;
+} /*grueso de texto*/
+.logo{
+    width: 350px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}/*tamaño de logo*/
+.imgpoke{
+    width:200px;
+    margin-top: 30px;
+    border-radius: 50%;
+}/*tamaño de imagen pokemon*/
+.entrada{
+    height: 30px;
+}/*tamaño de input*/
+.contenedor{
+  display: flex;
+    font-family: 'Roboto Mono', monospace;
+
+    border-radius: 4px;
+    color: #000;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 5px solid black;
+}/*contenedor*/
+
+/*barra de estadisticas inicio*/
+.progress-bar {
+    background-color: #1a1a1a;
+    height: 20px;
+    width: 300px;
+    margin: 5px 0;         
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;           
+  }/*fondo de la barra de estadisticas*/
+.progress-bar span {
+    display: inline-block;
+    height: 100%;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    transition: width .4s ease-in-out; 
+    background-color: #ccc;   
+  }/*barra de estadisticas*/
+  /*colores de cada barra*/
+.blue span{
+    background-color: #34c2e3;   
+  }
+.orange span{
+    background-color: #fecf23;  
+}   
+.green span {
+    background-color: #a5df41;
+  }
+.red span {
+    background-color: #e33434;   
+  }
+.brown span {
+    background-color: #9e7e0a;  
+  }   
+.pink span {
+    background-color: #ee62ee;
+  }
+  /*fin colores de cada barra*/
+/*fin barra de estadisticas*/
+.contevolucion{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+  border: #000 solid 1px;
+}
+.contenedortext{
+  margin: 5% 0 0 5%;
+}
+.segunda{
+        display: flex;
+        flex-wrap: wrap;
+}
+.primera{
+  margin-left: 15px;
+  align-items: center;
+}
+.tabla{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: #ccc;
+  border: #000 solid 2px;
+}
+.entrada{
+  text-align: center;
+}
+.multiple{
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  outline: none;
+}
+td{
+  border-bottom: 1px solid #999;
+}
