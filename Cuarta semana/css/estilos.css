@@ -116,3 +116,9 @@ p{
 td{
   border-bottom: 1px solid #999;
 }
+@media screen and (max-width: 980px){
+  .contenedor{
+    width: 350px;
+    display: inline-block;
+  }
+}
