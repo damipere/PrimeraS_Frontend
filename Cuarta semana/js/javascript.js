@@ -81,10 +81,10 @@ const fetchPokemon = () => {
           }
         }
       });
-  } else {
+      mostrar();
+    } else {
     alert("No se aceptan caracteres especiales o campos vacios");
   }
-  mostrar();
 };
 /*Busca la imagen y la inserta*/
 const pokeImage = (url, name, id) => {
